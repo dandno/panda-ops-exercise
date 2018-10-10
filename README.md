@@ -7,7 +7,7 @@
 ### deployment-flow.py
 
 
-Usage: ```new-flow.py [-h] -images_url IMAGES_URL -images_dir IMAGES_DIR -health_check_url HEALTH_CHECK_URL```
+Usage: ```deployment-flow.py [-h] -images_url IMAGES_URL -images_dir IMAGES_DIR -health_check_url HEALTH_CHECK_URL```
 
 - images_url - URL to images location tar.gz file (will be extracted to images_dir)
 - images_dir - location to extract images_url
