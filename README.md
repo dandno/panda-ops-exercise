@@ -1,10 +1,10 @@
-#panda-ops-exercise
+# panda-ops-exercise
 
-###Assumpsions
+### Assumpsions
 1. Docker and docker-compose are already installed on you host if not, install it according to following instructions: docker and docker-compose
 2. You are using python version 2.7
 
-###deployment-flow.py
+### deployment-flow.py
 
 Usage: ```new-flow.py [-h] -images_url IMAGES_URL -images_dir IMAGES_DIR -health_check_url HEALTH_CHECK_URL```
 
