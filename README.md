@@ -15,8 +15,8 @@ Usage: ```new-flow.py [-h] -images_url IMAGES_URL -images_dir IMAGES_DIR -health
 
 Description: 
 1.	Download tar file from $images_url
-2.	Extract to $images_dir
-3.	run docker-compose up (against the docker-compose.yml in the home directory)
+2.	Extract the tar file to $images_dir
+3.	Run docker-compose up (against the docker-compose.yml in the home directory)
 4.	Check return code of $health_check_url
 
 
