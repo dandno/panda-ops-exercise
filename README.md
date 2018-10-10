@@ -13,4 +13,4 @@ Usage: ```new-flow.py [-h] -images_url IMAGES_URL -images_dir IMAGES_DIR
 - images_dir - location to extract images_url
 - health_check_url - container's healthcheck url
  
-Example:
+Example: ```deployment-flow.py -images_url https://s3.eu-central-1.amazonaws.com/devops-exercise/pandapics.tar.gz -images_dir public/images -health_check_url http://localhost:3000 ```
